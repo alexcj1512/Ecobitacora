@@ -178,13 +178,76 @@ function App() {
         setStats(stats);
         setChatMessages(chatHistory);
       } catch (error) {
-        console.error('Error loading data:', error);
+        console.error('Backend no disponible, usando datos de demo:', error);
+        
+        // SI FALLA, usa datos de demostración
+        const demoUser = {
+          id: 'demo-user-id',
+          name: 'Demo User',
+          email: 'demo@ecobitacora.com',
+          xp: 2500,
+          level: 10,
+          totalCO2: 145.5,
+          streak: 7,
+          maxStreak: 15,
+          lastActionDate: new Date().toISOString(),
+          achievements: ['eco-warrior', 'green-champion', 'water-saver'],
+          avatar: '🌱',
+          createdAt: new Date().toISOString(),
+        };
+
+        const demoActions = [
+          {
+            id: '1',
+            userId: 'demo-user-id',
+            type: 'Usar bicicleta en lugar de auto',
+            category: 'transport',
+            co2Saved: 5.2,
+            xpGained: 50,
+            date: new Date().toISOString(),
+          },
+          {
+            id: '2',
+            userId: 'demo-user-id',
+            type: 'Reciclar plástico',
+            category: 'recycle',
+            co2Saved: 2.1,
+            xpGained: 30,
+            date: new Date(Date.now() - 86400000).toISOString(),
+          },
+        ];
+
+        const demoStats = {
+          totalActions: 45,
+          totalCO2: 145.5,
+          totalXP: 2500,
+          categoriesBreakdown: {
+            transport: 45.2,
+            recycle: 38.5,
+            energy: 35.8,
+            water: 26.0,
+          },
+          weeklyProgress: [
+            { day: 'Lun', co2: 12 },
+            { day: 'Mar', co2: 18 },
+            { day: 'Mié', co2: 15 },
+            { day: 'Jue', co2: 22 },
+            { day: 'Vie', co2: 19 },
+            { day: 'Sáb', co2: 25 },
+            { day: 'Dom', co2: 20 },
+          ],
+        };
+
+        setUser(demoUser);
+        setActions(demoActions);
+        setStats(demoStats);
+        setChatMessages([]);
       } finally {
         setLoading(false);
       }
     };
     loadData();
-  }, [setUser, setActions, setStats]);
+  }, [setUser, setActions, setStats, setChatMessages]);
 
   if (loading) {
     return (
