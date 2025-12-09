@@ -202,7 +202,7 @@ export default function DailyChallenge() {
           {completed ? (
             <span className="flex items-center justify-center space-x-2">
               <Sparkles className="w-5 h-5" />
-              <span>{t('challenge.completed', { xp: challenge.reward })}</span>
+              <span>{t('challenge.completed', { xp: String(challenge.reward) })}</span>
             </span>
           ) : accepted ? (
             <span className="flex items-center justify-center space-x-2">

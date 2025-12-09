@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useStore } from '@/store/useStore';
 import { useLanguageStore } from '@/store/languageStore';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, Area, AreaChart } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Area, AreaChart } from 'recharts';
 import CountUp from 'react-countup';
 import { TrendingUp, Award, Calendar, Zap } from 'lucide-react';
 import { getIconColor } from '@/utils/colors';

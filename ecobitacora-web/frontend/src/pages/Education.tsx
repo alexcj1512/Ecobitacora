@@ -150,7 +150,7 @@ export default function Education() {
           <span className="font-medium">{t('common.all')}</span>
         </motion.button>
         {categories.map((cat) => {
-          const Icon = cat.icon;
+          // const Icon = cat.icon;
           return (
             <motion.button
               key={cat.id}

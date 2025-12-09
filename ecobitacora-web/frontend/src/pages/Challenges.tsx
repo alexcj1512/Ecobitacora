@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Target, Calendar, Clock, CheckCircle, Star, Zap } from 'lucide-react';
+import { Target, Calendar, Clock, CheckCircle, Star } from 'lucide-react';
 import { useLanguageStore } from '@/store/languageStore';
 
 export default function Challenges() {

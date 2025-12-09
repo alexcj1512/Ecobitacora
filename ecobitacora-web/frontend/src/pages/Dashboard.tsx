@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Plus, Flame, TrendingUp, Globe, Zap } from 'lucide-react';
+import { Plus, Flame, TrendingUp, Globe } from 'lucide-react';
 import { useStore } from '@/store/useStore';
 import { useLanguageStore } from '@/store/languageStore';
-import CountUp from 'react-countup';
+// import CountUp from 'react-countup';
 import StatsCard from '@/components/dashboard/StatsCard';
 import ImpactVisual from '@/components/dashboard/ImpactVisual';
 import RecentActions from '@/components/dashboard/RecentActions';

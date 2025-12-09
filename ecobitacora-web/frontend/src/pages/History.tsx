@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { History as HistoryIcon, Filter, Calendar, TrendingUp, Search } from 'lucide-react';
+import { History as HistoryIcon, Calendar, TrendingUp, Search } from 'lucide-react';
 import { useState } from 'react';
 import { useStore } from '@/store/useStore';
 import { useLanguageStore } from '@/store/languageStore';
@@ -34,7 +34,7 @@ export default function History() {
   });
 
   const totalCO2 = filteredActions.reduce((sum, action) => sum + action.co2Saved, 0);
-  const totalXP = filteredActions.reduce((sum, action) => sum + action.xpGained, 0);
+  // const totalXP = filteredActions.reduce((sum, action) => sum + action.xpGained, 0);
 
   return (
     <div className="space-y-6 pb-20">

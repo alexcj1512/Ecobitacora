@@ -47,7 +47,7 @@ export const exportToJSON = (actions: Action[], user: User) => {
   link.click();
 };
 
-export const copyToClipboard = async (actions: Action[], user: User) => {
+export const copyToClipboard = async (actions: Action[], _user: User) => {
   const text = actions.map(a => 
     `${new Date(a.date).toLocaleDateString()} - ${a.type}: ${a.co2Saved}kg CO₂`
   ).join('\n');
