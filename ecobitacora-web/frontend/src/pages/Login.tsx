@@ -4,6 +4,12 @@ import { Mail, Lock, LogIn, Leaf } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import EcobitacoraLogo from '@/components/EcobitacoraLogo';
 
+// Mock data - Para presentación
+const mockCredentials = {
+  email: "demo@ecobitacora.com",
+  password: "demo123"
+};
+
 export default function Login() {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
@@ -17,6 +23,23 @@ export default function Login() {
     setLoading(true);
 
     try {
+      // Cuando intente login con estos datos, entra sin backend
+      if (email === mockCredentials.email && password === mockCredentials.password) {
+        // Entra directo al dashboard con datos ficticios
+        localStorage.setItem("user", JSON.stringify({
+          name: "Demo User",
+          email: email,
+          xp: 2500,
+          level: 10
+        }));
+        localStorage.setItem('userId', 'demo-user-id');
+        
+        // Redirigir al dashboard
+        navigate('/');
+        window.location.reload();
+        return;
+      }
+
       const response = await fetch('http://localhost:5000/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
