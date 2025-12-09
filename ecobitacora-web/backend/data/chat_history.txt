@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1763599688346",
+    "role": "user",
+    "content": "que tal terra",
+    "timestamp": "2025-11-20T00:48:08.346Z"
+  },
+  {
+    "id": "1763599689494",
+    "role": "assistant",
+    "content": "¡Me gusta tu pregunta! 😊 Hablando de eso, ¿has pensado en cómo tu día a día impacta el medio ambiente? Con tus 16 acciones ya estás haciendo la diferencia. ¿Quieres un consejo ecológico? 🌿",
+    "timestamp": "2025-11-20T00:48:09.493Z"
+  },
+  {
+    "id": "1763599702929",
+    "role": "user",
+    "content": "que mas puedes decirme?",
+    "timestamp": "2025-11-20T00:48:22.929Z"
+  },
+  {
+    "id": "1763599703849",
+    "role": "assistant",
+    "content": "Entiendo lo que dices. 🌟 Sabes, cada día es una oportunidad para hacer algo bueno por el planeta. Con nivel 3, vas por buen camino. ¿Registraste alguna acción hoy? 🌱",
+    "timestamp": "2025-11-20T00:48:23.848Z"
+  },
+  {
+    "id": "1763599787282",
+    "role": "user",
+    "content": "hola",
+    "timestamp": "2025-11-20T00:49:47.282Z"
+  },
+  {
+    "id": "1763599788258",
+    "role": "assistant",
+    "content": "¡Hola EcoWarrior! 🌱 Estás en nivel 3 con 1 días de racha. ¿En qué puedo ayudarte hoy?",
+    "timestamp": "2025-11-20T00:49:48.257Z"
+  },
+  {
+    "id": "1763599791636",
+    "role": "user",
+    "content": "como voy",
+    "timestamp": "2025-11-20T00:49:51.636Z"
+  },
+  {
+    "id": "1763599792527",
+    "role": "assistant",
+    "content": "¡Hola EcoWarrior! 👋 Cuéntame más, ¿en qué puedo ayudarte? Puedo darte consejos ecológicos, mostrarte tus estadísticas, o simplemente charlar. 💚",
+    "timestamp": "2025-11-20T00:49:52.526Z"
+  },
+  {
+    "id": "1763599798941",
+    "role": "user",
+    "content": "como voy aca",
+    "timestamp": "2025-11-20T00:49:58.941Z"
+  },
+  {
+    "id": "1763599799872",
+    "role": "assistant",
+    "content": "¡Buena pregunta! 💭 Me encanta conversar contigo. Por cierto, llevas 1 días de racha, ¡sigue así! ¿Hay algo específico sobre ecología que te gustaría saber? 🌍",
+    "timestamp": "2025-11-20T00:49:59.871Z"
+  },
+  {
+    "id": "1763599807477",
+    "role": "user",
+    "content": "hola?",
+    "timestamp": "2025-11-20T00:50:07.477Z"
+  },
+  {
+    "id": "1763599808552",
+    "role": "assistant",
+    "content": "¡Qué gusto verte EcoWarrior! 💚 Llevas 26.0kg de CO₂ ahorrado. ¿Listo para más acciones ecológicas?",
+    "timestamp": "2025-11-20T00:50:08.551Z"
+  },
+  {
+    "id": "1763600218514",
+    "role": "user",
+    "content": "hola",
+    "timestamp": "2025-11-20T00:56:58.514Z"
+  },
+  {
+    "id": "1763600222860",
+    "role": "assistant",
+    "content": "¡Hola otra vez, EcoWarrior! 👋 Me encanta verte activo. Ya has ahorrado 26.0 kg de CO₂. ¿Qué te parece si exploramos una nueva acción ecológica para seguir sumando puntos? 🌱",
+    "timestamp": "2025-11-20T00:57:02.859Z"
+  },
+  {
+    "id": "1763600231818",
+    "role": "user",
+    "content": "como te va",
+    "timestamp": "2025-11-20T00:57:11.818Z"
+  },
+  {
+    "id": "1763600236965",
+    "role": "assistant",
+    "content": "¡Hola, EcoWarrior! ¡Me va genial, gracias por preguntar! 🤩 Siempre estoy listo para ayudarte a seguir sumando. ¡Ya has ahorrado 26.0 kg de CO₂! ¿Hay alguna acción ecológica que te gustaría registrar o un nuevo consejo que necesites hoy? 🌱",
+    "timestamp": "2025-11-20T00:57:16.964Z"
+  },
+  {
+    "id": "1763600254117",
+    "role": "user",
+    "content": "va bien todo mi procedimiento",
+    "timestamp": "2025-11-20T00:57:34.117Z"
+  },
+  {
+    "id": "1763600259902",
+    "role": "assistant",
+    "content": "¡Fantástico, EcoWarrior! 🎉 Me alegra mucho saber que todo va tan bien con tu camino ecológico. Ya has ahorrado 26.0 kg de CO₂, ¡eso es como haber plantado más de un árbol! 🌳\n\n¡Tu racha es de 1 día, mantengámosla viva! ¿Qué acción te gustaría registrar hoy o qué nuevo consejo necesitas para seguir sumando? 🌱",
+    "timestamp": "2025-11-20T00:57:39.901Z"
+  },
+  {
+    "id": "1763604335674",
+    "role": "user",
+    "content": "hola",
+    "timestamp": "2025-11-20T02:05:35.674Z"
+  },
+  {
+    "id": "1763604339558",
+    "role": "assistant",
+    "content": "¡Hola, EcoWarrior! 👋 ¡Me alegra mucho que te conectes de nuevo! Ya has ahorrado 27.99 kg de CO₂, ¡un impacto increíble! 🌱\n\nTu racha es de 1 día, ¡vamos a mantenerla viva! ¿Qué acción ecológica te gustaría registrar hoy para seguir sumando a tu huella verde? 🌍",
+    "timestamp": "2025-11-20T02:05:39.557Z"
+  },
+  {
+    "id": "1763609266561",
+    "role": "user",
+    "content": "Hola ",
+    "timestamp": "2025-11-20T03:27:46.561Z"
+  },
+  {
+    "id": "1763609270666",
+    "role": "assistant",
+    "content": "¡Hola de nuevo, EcoWarrior! 👋 ¡Me alegra mucho que te conectes! Ya has ahorrado 27.99 kg de CO₂, ¡eso es como evitar casi 145 km en coche! 🚗💨\n\nTu racha es de 1 día, ¡vamos a mantenerla viva y hacerla crecer! ¿Qué acción ecológica te gustaría registrar hoy o en qué puedo ayudarte para seguir sumando a tu huella verde? 🌱",
+    "timestamp": "2025-11-20T03:27:50.665Z"
+  },
+  {
+    "id": "1763609329042",
+    "role": "user",
+    "content": "Como hago con los vidrios rotos",
+    "timestamp": "2025-11-20T03:28:49.042Z"
+  },
+  {
+    "id": "1763609336199",
+    "role": "assistant",
+    "content": "¡Hola de nuevo, EcoWarrior! 👋 ¡Excelente pregunta sobre los vidrios rotos! La clave es la seguridad: envuélvelos muy bien en papel de periódico o cartón grueso. Luego, puedes depositarlos con cuidado en el contenedor de vidrio. ¡Así proteges a todos y sigues sumando a tu impacto verde! 💚🌍",
+    "timestamp": "2025-11-20T03:28:56.198Z"
+  },
+  {
+    "id": "1763609386531",
+    "role": "user",
+    "content": "Se puede usar insecticida para mi chacra de papa",
+    "timestamp": "2025-11-20T03:29:46.531Z"
+  },
+  {
+    "id": "1763609391715",
+    "role": "assistant",
+    "content": "¡Hola de nuevo, EcoWarrior! 👋 ¡Excelente que pienses en tu chacra de papa! Para un enfoque más ecológico, te sugiero explorar soluciones naturales como el control biológico o remedios caseros 🌱. Así, evitas químicos que dañan el suelo y a nuestros amigos insectos buenos. ¡Tu huella verde te lo agradecerá! 💚🌍",
+    "timestamp": "2025-11-20T03:29:51.714Z"
+  },
+  {
+    "id": "1763609431827",
+    "role": "user",
+    "content": "Cómo puedo lidiar con el estrés emocional ",
+    "timestamp": "2025-11-20T03:30:31.827Z"
+  },
+  {
+    "id": "1763609434613",
+    "role": "assistant",
+    "content": "¡Hola de nuevo, EcoWarrior! 👋 Entiendo que lidiar con el estrés emocional es muy importante. Como EcoBot, mi misión es ayudarte con tips de ecología y sostenibilidad 🌱, pero para temas de bienestar emocional, te recomiendo buscar el apoyo de un profesional o recursos especializados en salud mental. ¡Ellos te darán la mejor guía!\n\nSi necesitas ideas para sumar a tu huella verde o reducir tu CO₂, ¡aquí estoy para ayudarte! 💚🌍",
+    "timestamp": "2025-11-20T03:30:34.612Z"
+  },
+  {
+    "id": "1763609574929",
+    "role": "user",
+    "content": "Hola cómo puedo reducir mi basura de la cocina",
+    "timestamp": "2025-11-20T03:32:54.929Z"
+  },
+  {
+    "id": "1763609578972",
+    "role": "assistant",
+    "content": "¡Hola de nuevo, EcoWarrior! 👋 ¡Excelente pregunta sobre cómo reducir la basura de la cocina! 🌱\n\nAquí tienes algunas ideas clave:\n1.  **Composta tus orgánicos:** Convierte cáscaras y restos en abono. ¡Reduce una gran parte de tu basura! 🥕\n2.  **Planifica tus comidas:** Así evitas el desperdicio de alimentos y compras solo lo necesario.\n3.  **Compra a granel:** Reduce los empaques de un solo uso. ♻️\n\n¡Cada pequeño cambio suma a tu gran impacto verde! ¡Sigue así! 💚🌍",
+    "timestamp": "2025-11-20T03:32:58.971Z"
+  },
+  {
+    "id": "1763609602557",
+    "role": "user",
+    "content": "Muchas gracias por tu ayuda ",
+    "timestamp": "2025-11-20T03:33:22.557Z"
+  },
+  {
+    "id": "1763609606334",
+    "role": "assistant",
+    "content": "¡De nada, EcoWarrior! ¡Es un placer enorme apoyarte en tu camino verde! 🌍 Tu compromiso es inspirador y tu huella verde no deja de crecer.\n\n¡Recuerda que cada acción cuenta! ¿Hay algo más en lo que pueda ayudarte hoy para seguir sumando a esos casi 28 kg de CO₂ ahorrados? 🌱💚",
+    "timestamp": "2025-11-20T03:33:26.333Z"
+  },
+  {
+    "id": "1763609661404",
+    "role": "user",
+    "content": "hola ",
+    "timestamp": "2025-11-20T03:34:21.404Z"
+  },
+  {
+    "id": "1763609663482",
+    "role": "assistant",
+    "content": "¡Hola, EcoWarrior! 👋 ¡Me alegra verte de nuevo por aquí! 🌱\n\nTu compromiso sigue siendo increíble, ya llevas casi 28 kg de CO₂ ahorrados y eso ¡equivale a haber plantado más de 1 árbol! 🌳 ¡Increíble!\n\n¿Qué acción ecológica te gustaría que exploremos hoy para seguir sumando a tu huella verde? 🌍💚",
+    "timestamp": "2025-11-20T03:34:23.481Z"
+  },
+  {
+    "id": "1763609669339",
+    "role": "user",
+    "content": "como sigo ahorrando",
+    "timestamp": "2025-11-20T03:34:29.339Z"
+  },
+  {
+    "id": "1763609675071",
+    "role": "assistant",
+    "content": "¡Genial pregunta, EcoWarrior! ¡Hay muchísimas formas de seguir sumando a esos casi 28 kg de CO₂ que ya has ahorrado! 🚀\n\nPara seguir tu impresionante camino, podrías enfocarte en **ahorrar energía** en casa: desconecta aparatos que no uses y aprovecha la luz natural. 💡 ¡Cada pequeño gesto suma!\n\n¡Y no olvides tu racha de 1 día, es el comienzo de algo grande! ¡Sigue registrando tus acciones para ver crecer tu impacto verde! 💚🌍",
+    "timestamp": "2025-11-20T03:34:35.070Z"
+  },
+  {
+    "id": "1763609687244",
+    "role": "user",
+    "content": "muchas gracias adios",
+    "timestamp": "2025-11-20T03:34:47.244Z"
+  },
+  {
+    "id": "1763609689781",
+    "role": "assistant",
+    "content": "¡De nada, EcoWarrior! Ha sido un placer acompañarte hoy. 😊\n\n¡Sigue con ese increíble espíritu ecológico! Recuerda que cada acción cuenta y tu racha de 1 día es el inicio de un gran impacto. ¡Te esperamos de vuelta para seguir sumando a esos casi 28 kg de CO₂ ahorrados! 🌱💚 ¡Hasta pronto!",
+    "timestamp": "2025-11-20T03:34:49.780Z"
+  },
+  {
+    "id": "1764127832720",
+    "role": "user",
+    "content": "como voy",
+    "timestamp": "2025-11-26T03:30:32.720Z"
+  },
+  {
+    "id": "1764127837901",
+    "role": "assistant",
+    "content": "¡Hola, EcoWarrior! ¡Vas de maravilla! 🚀\n\nYa eres Nivel 3 con 2484 XP y has ahorrado ¡casi 28 kg de CO₂! Eso es como haber plantado más de 1 árbol. 🌳 ¡Un impacto real!\n\n¡Tu racha máxima de 12 días demuestra tu compromiso! ¿Qué tal si empezamos una nueva racha hoy? Registra cualquier acción para seguir sumando a tu huella verde. 💚🌍",
+    "timestamp": "2025-11-26T03:30:37.900Z"
+  },
+  {
+    "id": "1764127853897",
+    "role": "user",
+    "content": "que me puedes decir el sistema de donacion de esta pag web",
+    "timestamp": "2025-11-26T03:30:53.897Z"
+  },
+  {
+    "id": "1764127856927",
+    "role": "assistant",
+    "content": "¡Hola de nuevo, EcoWarrior! 😊\n\nComo EcoBot, mi misión es ayudarte a reducir tu huella de carbono y adoptar hábitos más ecológicos, ¡así que me enfoco en tus acciones verdes! 🌿\n\nNo tengo información sobre sistemas de donación de la página web. Pero si quieres seguir explorando cómo puedes sumar más a tus ¡27.99 kg de CO₂ ahorrados!, ¡estoy aquí para ayudarte con consejos y nuevas ideas! 🌱 ¿Qué te parece si pensamos en tu próxima acción ecológica? 🌍",
+    "timestamp": "2025-11-26T03:30:56.926Z"
+  },
+  {
+    "id": "1764128063985",
+    "role": "user",
+    "content": "ahora que me puedes decir del sistema de donacion",
+    "timestamp": "2025-11-26T03:34:23.985Z"
+  },
+  {
+    "id": "1764128070700",
+    "role": "assistant",
+    "content": "¡Hola otra vez, EcoWarrior! 😊\n\nComo EcoBot, mi misión es ayudarte a ser un campeón del planeta, enfocándome al 100% en acciones ecológicas para reducir tu huella de carbono. 🌱\n\nPor eso, mi conocimiento se limita a cómo seguir sumando a tus impresionantes ¡27.99 kg de CO₂ ahorrados! 🌍 No tengo información sobre sistemas de donación.\n\nPero si quieres ideas para tu próxima acción verde, ¡estoy aquí para inspirarte, quizás explorando más en ahorro de energía o agua! ¿Qué te gustaría intentar hoy? 💡💧",
+    "timestamp": "2025-11-26T03:34:30.699Z"
+  },
+  {
+    "id": "1764129372452",
+    "role": "user",
+    "content": "que onda",
+    "timestamp": "2025-11-26T03:56:12.452Z"
+  },
+  {
+    "id": "1764129376045",
+    "role": "assistant",
+    "content": "¡Qué onda, EcoWarrior Nivel 3! 👋 ¡Todo listo para seguir sumando! Llevas 28.0kg CO₂ ahorrados. ¿Qué acción verde tienes en mente para hoy? 🌿💧",
+    "timestamp": "2025-11-26T03:56:16.044Z"
+  },
+  {
+    "id": "1764129391559",
+    "role": "user",
+    "content": "si claro y como va con eso de donaciones",
+    "timestamp": "2025-11-26T03:56:31.559Z"
+  },
+  {
+    "id": "1764129394368",
+    "role": "assistant",
+    "content": "¡Entendido, EcoWarrior! Mi foco es tu huella de carbono. 🌍 Para eso, ¿qué te parece registrar una acción de transporte hoy? Así mantienes tu racha y sumas a tus 28.0kg CO₂. 🚴‍♀️💨",
+    "timestamp": "2025-11-26T03:56:34.367Z"
+  },
+  {
+    "id": "1764129417585",
+    "role": "user",
+    "content": "hablaba del tu pag que dice donar como va?",
+    "timestamp": "2025-11-26T03:56:57.585Z"
+  },
+  {
+    "id": "1764129424716",
+    "role": "assistant",
+    "content": "¡Claro, EcoWarrior! 🤝 La página \"Donar\" te permite apoyar el proyecto vía Yape o PayPal. ¡Gracias por tu interés! ¿Qué acción te anima a registrar hoy para mantener tu racha? 🚴‍♀️💡",
+    "timestamp": "2025-11-26T03:57:04.715Z"
+  }
+]

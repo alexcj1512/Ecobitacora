@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1763603048583",
+    "category": "transport",
+    "type": "Bicicleta",
+    "amount": 1,
+    "co2Saved": 0.192,
+    "xpGained": 1,
+    "date": "2025-11-20T01:44:08.583Z"
+  },
+  {
+    "id": "1763603030383",
+    "category": "recycle",
+    "type": "Plástico",
+    "amount": 1,
+    "co2Saved": 1.5,
+    "xpGained": 15,
+    "date": "2025-11-20T01:43:50.383Z"
+  },
+  {
+    "id": "1763601785601",
+    "category": "recycle",
+    "type": "Vidrio",
+    "amount": 1,
+    "co2Saved": 0.3,
+    "xpGained": 3,
+    "date": "2025-11-20T01:23:05.601Z"
+  },
+  {
+    "id": "1763529835996",
+    "category": "recycle",
+    "type": "Plástico",
+    "amount": 1,
+    "co2Saved": 1.5,
+    "xpGained": 15,
+    "date": "2025-11-19T05:23:55.996Z"
+  },
+  {
+    "id": "1731920400000",
+    "category": "transport",
+    "type": "Bicicleta",
+    "amount": 5,
+    "co2Saved": 0.96,
+    "xpGained": 10,
+    "date": "2024-11-18T08:30:00.000Z"
+  },
+  {
+    "id": "1731834000000",
+    "category": "recycle",
+    "type": "Plástico",
+    "amount": 2,
+    "co2Saved": 3,
+    "xpGained": 30,
+    "date": "2024-11-17T10:15:00.000Z"
+  },
+  {
+    "id": "1731747600000",
+    "category": "energy",
+    "type": "Apagar Luz 1h",
+    "amount": 3,
+    "co2Saved": 0.12,
+    "xpGained": 1,
+    "date": "2024-11-16T14:20:00.000Z"
+  },
+  {
+    "id": "1731661200000",
+    "category": "water",
+    "type": "Ducha Corta",
+    "amount": 1,
+    "co2Saved": 0.12,
+    "xpGained": 1,
+    "date": "2024-11-15T07:45:00.000Z"
+  }
+]

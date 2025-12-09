@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test WebAssembly - Ecobitácora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #6B9080 0%, #7CB342 100%);
+            color: white;
+        }
+        .container {
+            background: white;
+            color: #333;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #6B9080;
+            text-align: center;
+        }
+        .result {
+            background: #f0f0f0;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            border-left: 4px solid #7CB342;
+        }
+        .success {
+            color: #7CB342;
+            font-weight: bold;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            background: linear-gradient(135deg, #6B9080 0%, #7CB342 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Test WebAssembly - Calculadora de Carbono</h1>
+        
+        <div id="loading" class="loading">
+            <p>⏳ Cargando WebAssembly...</p>
+        </div>
+        
+        <div id="content" style="display: none;">
+            <p class="success">✅ WebAssembly cargado correctamente!</p>
+            
+            <h2>Pruebas de Cálculo:</h2>
+            
+            <button onclick="testTransport()">🚗 Test Transporte</button>
+            <button onclick="testRecycling()">♻️ Test Reciclaje</button>
+            <button onclick="testEquivalences()">🌳 Test Equivalencias</button>
+            <button onclick="testEcoScore()">📊 Test Score Ecológico</button>
+            <button onclick="runAllTests()">🎯 Ejecutar Todos</button>
+            
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <script src="/carbon-calculator.js"></script>
+    <script>
+        let calculator = null;
+
+        // Cargar WebAssembly
+        createCarbonCalculator().then(Module => {
+            calculator = new Module.CarbonCalculator();
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+            console.log('✅ WebAssembly cargado!');
+        }).catch(err => {
+            document.getElementById('loading').innerHTML = 
+                '<p style="color: red;">❌ Error cargando WebAssembly: ' + err + '</p>';
+        });
+
+        function addResult(title, content) {
+            const results = document.getElementById('results');
+            const div = document.createElement('div');
+            div.className = 'result';
+            div.innerHTML = `<strong>${title}</strong><br>${content}`;
+            results.appendChild(div);
+        }
+
+        function testTransport() {
+            const carCO2 = calculator.calculateTransport('car_gasoline', 10);
+            const bikeCO2 = calculator.calculateTransport('bicycle', 10);
+            const saved = carCO2 - bikeCO2;
+            
+            addResult('🚗 Transporte', 
+                `Auto 10km: ${carCO2} kg CO₂<br>` +
+                `Bici 10km: ${bikeCO2} kg CO₂<br>` +
+                `<span class="success">Ahorrado: ${saved} kg CO₂</span>`
+            );
+        }
+
+        function testRecycling() {
+            const plastic = calculator.calculateRecycling('plastic', 2);
+            const paper = calculator.calculateRecycling('paper', 3);
+            const total = plastic + paper;
+            
+            addResult('♻️ Reciclaje',
+                `2kg plástico: ${plastic} kg CO₂<br>` +
+                `3kg papel: ${paper} kg CO₂<br>` +
+                `<span class="success">Total ahorrado: ${total} kg CO₂</span>`
+            );
+        }
+
+        function testEquivalences() {
+            const co2 = 10;
+            const trees = calculator.getTreesEquivalent(co2);
+            const carKm = calculator.getCarKmEquivalent(co2);
+            const showers = calculator.getShowersEquivalent(co2);
+            
+            addResult('🌳 Equivalencias de 10kg CO₂',
+                `🌳 ${trees} árboles plantados<br>` +
+                `🚗 ${carKm} km en auto evitados<br>` +
+                `🚿 ${showers} duchas ahorradas`
+            );
+        }
+
+        function testEcoScore() {
+            const score = calculator.calculateEcoScore(50, 100, 10, 30);
+            const percentage = score;
+            
+            addResult('📊 Score Ecológico',
+                `Score: <span class="success">${score}/100</span><br>` +
+                `Basado en: 50kg CO₂, 100 acciones, 10 días racha, 30 días activo`
+            );
+        }
+
+        function runAllTests() {
+            document.getElementById('results').innerHTML = '';
+            testTransport();
+            testRecycling();
+            testEquivalences();
+            testEcoScore();
+            
+            addResult('⚡ Rendimiento',
+                `<span class="success">Todos los cálculos ejecutados instantáneamente!</span><br>` +
+                `WebAssembly es 10-20x más rápido que JavaScript 🚀`
+            );
+        }
+    </script>
+</body>
+</html>

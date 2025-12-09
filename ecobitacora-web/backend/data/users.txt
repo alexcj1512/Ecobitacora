@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1764122680890",
+    "email": "campjurealexlui@gmail.com",
+    "password": "12345678",
+    "name": "ale",
+    "level": 1,
+    "xp": 0,
+    "streak": 0,
+    "maxStreak": 0,
+    "totalCO2": 0,
+    "totalActions": 0,
+    "achievements": [],
+    "createdAt": "2025-11-26T02:04:40.890Z",
+    "lastActionDate": null,
+    "logoUrl": null
+  }
+]

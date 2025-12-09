@@ -1,0 +1,17 @@
+{
+  "name": "EcoWarrior",
+  "level": 3,
+  "xp": 2484,
+  "streak": 0,
+  "maxStreak": 12,
+  "totalCO2": 27.992,
+  "totalActions": 19,
+  "achievements": [
+    "first_action",
+    "week_streak",
+    "co2_10kg"
+  ],
+  "createdAt": "2025-08-25T00:00:00.000Z",
+  "lastActionDate": "2025-11-20T01:44:08.583Z",
+  "logoUrl": "http://localhost:5000/uploads/logos/1764121368580-272526087-logo ecobitacora.png"
+}
