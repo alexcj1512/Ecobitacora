@@ -18,6 +18,17 @@ export default function Dashboard() {
   const [showAddModal, setShowAddModal] = useState(false);
 
   const [currentPhrase] = useState(t('dashboard.phrase'));
+    // Mock data fallback cuando el backend no está disponible
+  const mockUser = {
+    name: 'Usuario Demo',
+    streak: 5,
+    level: 3,
+    xp: 750,
+    totalCO2: 450,
+    treesPlanted: 12
+  };
+
+  const displayUser = user || mockUser;
 
   if (!user) return <div>{t('common.loading')}</div>;
 
@@ -82,14 +93,14 @@ export default function Dashboard() {
       </motion.div>
 
       {/* Streak Warning */}
-      <StreakWarning streak={user.streak} lastActionDate={user.lastActionDate} />
+      <StreakWarning streak={displayUser.streak} lastActionDate={displayUser.lastActionDate} />
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <StatsCard
           icon={Flame}
           title={t('dashboard.streak')}
-          value={user.streak}
+          value={displayUser.streak}
           suffix={` ${t('common.days')}`}
           color="streak"
           subtitle={`${t('dashboard.record').replace('{days}', user.maxStreak.toString())}`}
@@ -98,16 +109,16 @@ export default function Dashboard() {
         <StatsCard
           icon={TrendingUp}
           title={t('dashboard.level')}
-          value={user.level}
+          value={displayUser.level}
           color="primary"
-          subtitle={`${user.xp % 1000} / 1000 XP`}
+          subtitle={`${displayUser.xp % 1000} / 1000 XP`}
           progress={(user.xp % 1000) / 1000}
           delay={0.1}
         />
         <StatsCard
           icon={Globe}
           title={t('dashboard.co2')}
-          value={user.totalCO2}
+          value={displayUser.totalCO2}
           suffix={` ${t('common.kg')}`}
           color="success"
           subtitle={`${Math.floor(user.totalCO2 / 22)} ${t('dashboard.treesPlanted')}`}
@@ -119,25 +130,25 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <ImpactVisual
           type="forest"
-          value={user.totalCO2}
+          value={displayUser.totalCO2}
           title={t('dashboard.virtualForest')}
           icon="🌳"
         />
         <ImpactVisual
           type="distance"
-          value={user.totalCO2}
+          value={displayUser.totalCO2}
           title={t('dashboard.kmSaved')}
           icon="🚴"
         />
         <ImpactVisual
           type="energy"
-          value={user.totalCO2}
+          value={displayUser.totalCO2}
           title={t('categories.energy')}
           icon="💡"
         />
         <ImpactVisual
           type="water"
-          value={user.totalCO2}
+          value={displayUser.totalCO2}
           title={t('categories.water')}
           icon="💧"
         />

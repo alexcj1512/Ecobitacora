@@ -182,35 +182,33 @@ function App() {
         
         // SI FALLA, usa datos de demostración
         const demoUser = {
-          id: 'demo-user-id',
           name: 'Demo User',
-          email: 'demo@ecobitacora.com',
-          xp: 2500,
           level: 10,
-          totalCO2: 145.5,
+          xp: 2500,
           streak: 7,
           maxStreak: 15,
-          lastActionDate: new Date().toISOString(),
+          totalCO2: 145.5,
+          totalActions: 45,
           achievements: ['eco-warrior', 'green-champion', 'water-saver'],
-          avatar: '🌱',
           createdAt: new Date().toISOString(),
+          lastActionDate: new Date().toISOString(),
         };
 
         const demoActions = [
           {
             id: '1',
-            userId: 'demo-user-id',
+            category: 'transport' as const,
             type: 'Usar bicicleta en lugar de auto',
-            category: 'transport',
+            amount: 10,
             co2Saved: 5.2,
             xpGained: 50,
             date: new Date().toISOString(),
           },
           {
             id: '2',
-            userId: 'demo-user-id',
+            category: 'recycle' as const,
             type: 'Reciclar plástico',
-            category: 'recycle',
+            amount: 2,
             co2Saved: 2.1,
             xpGained: 30,
             date: new Date(Date.now() - 86400000).toISOString(),
@@ -220,21 +218,22 @@ function App() {
         const demoStats = {
           totalActions: 45,
           totalCO2: 145.5,
-          totalXP: 2500,
-          categoriesBreakdown: {
+          averageDaily: 4.8,
+          maxStreak: 15,
+          byCategory: {
             transport: 45.2,
             recycle: 38.5,
             energy: 35.8,
             water: 26.0,
           },
-          weeklyProgress: [
-            { day: 'Lun', co2: 12 },
-            { day: 'Mar', co2: 18 },
-            { day: 'Mié', co2: 15 },
-            { day: 'Jue', co2: 22 },
-            { day: 'Vie', co2: 19 },
-            { day: 'Sáb', co2: 25 },
-            { day: 'Dom', co2: 20 },
+          last30Days: [
+            { date: '2024-12-01', co2: 12, actions: 3 },
+            { date: '2024-12-02', co2: 18, actions: 4 },
+            { date: '2024-12-03', co2: 15, actions: 2 },
+            { date: '2024-12-04', co2: 22, actions: 5 },
+            { date: '2024-12-05', co2: 19, actions: 3 },
+            { date: '2024-12-06', co2: 25, actions: 6 },
+            { date: '2024-12-07', co2: 20, actions: 4 },
           ],
         };
 
