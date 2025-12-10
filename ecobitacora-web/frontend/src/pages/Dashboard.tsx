@@ -25,7 +25,9 @@ export default function Dashboard() {
     level: 3,
     xp: 750,
     totalCO2: 450,
-    treesPlanted: 12
+    treesPlanted: 12,
+    lastActionDate: new Date().toISOString(),
+    maxStreak: 10
   };
 
   const displayUser = user || mockUser;
